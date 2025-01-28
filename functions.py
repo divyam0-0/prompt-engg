@@ -14,13 +14,13 @@ llm = ChatGroq(temperature=0,
                 model_name="llama-3.3-70b-versatile",
                 streaming=True)
 
-import mlflow # type: ignore
-mlflow.set_tracking_uri(uri="http://localhost:8505/")
-mlflow.langchain.autolog(
-    log_models=True,
-    log_input_examples=True,
-    log_model_signatures=True,
-)
+#import mlflow # type: ignore
+#mlflow.set_tracking_uri(uri="http://localhost:8505/")
+#mlflow.langchain.autolog(
+#    log_models=True,
+#    log_input_examples=True,
+#    log_model_signatures=True,
+#)
 import pandas as pd
 
 
