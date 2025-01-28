@@ -9,6 +9,7 @@ pandas
 textstat
 syllapy
 tiktoken
+plotly-express
 # transformers 
 # pytorch
 # matplotlib
