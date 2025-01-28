@@ -1,0 +1,8 @@
+2025-01-05 14:33:22 | INFO | controller | args: Namespace(dispatch_method='shortest_queue', host='localhost', port=21001, ssl=False)
+2025-01-05 14:33:23 | ERROR | stderr | [32mINFO[0m:     Started server process [[36m20180[0m]
+2025-01-05 14:33:23 | ERROR | stderr | [32mINFO[0m:     Waiting for application startup.
+2025-01-05 14:33:23 | ERROR | stderr | [32mINFO[0m:     Application startup complete.
+2025-01-05 14:33:23 | ERROR | stderr | [32mINFO[0m:     Uvicorn running on [1mhttp://localhost:21001[0m (Press CTRL+C to quit)
+2025-01-06 12:05:53 | INFO | stdout | [32mINFO[0m:     ::1:64257 - "[1mGET / HTTP/1.1[0m" [31m404 Not Found[0m
+2025-01-06 12:05:53 | INFO | stdout | [32mINFO[0m:     ::1:64257 - "[1mGET /favicon.ico HTTP/1.1[0m" [31m404 Not Found[0m
+2025-01-06 12:05:56 | INFO | stdout | [32mINFO[0m:     ::1:64257 - "[1mGET / HTTP/1.1[0m" [31m404 Not Found[0m

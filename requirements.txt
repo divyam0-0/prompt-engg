@@ -1,0 +1,14 @@
+streamlit ==1.24.0
+langchain==0.2.17
+langchain-community==0.2.19
+langchain-core==0.2.43
+langchain-groq==0.1.10
+mlflow
+nltk
+pandas
+textstat
+syllapy
+tiktoken
+# transformers 
+# pytorch
+# matplotlib
