@@ -3,6 +3,7 @@ from langchain.callbacks.streamlit import StreamlitCallbackHandler
 
 st.set_page_config(
     page_title="Prompt Engineering",
+    initial_sidebar_state="collapsed"
 )
 
 from functions import (
