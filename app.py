@@ -11,7 +11,7 @@ from functions import (
     combine_answers
 )
 
-import mlflow
+#import mlflow
 sidebar_message = """
 ML Ops Capstone Project
 
