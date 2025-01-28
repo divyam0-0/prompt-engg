@@ -101,7 +101,7 @@ if user_input := st.chat_input("Ask anything"):
             a1 = answer_prompt(user_input, system_instructions="", callbacks=[st_callback])
             # st.write(a1)
     with tab_2:
-        st.info("**Improved prompt** \n\n The app will now try to improve your prompt.")
+        st.info("✨ **Prompt Glow-Up** ✨ \n\n The app is about to work its magic and level up your prompt! 🪄")
         with st.chat_message("user"):
             st_callback = StreamlitCallbackHandler(st.container())
             new_prompt_complex = improve_prompt(user_input, simple_instruction=False, use4 = False, callbacks=[st_callback])
@@ -122,6 +122,16 @@ if user_input := st.chat_input("Ask anything"):
                                         )
             # st.write(combined)
     with tab_4:
+        st.write("""
+        Each graph provides insights into text metrics for **user prompts** and **AI-generated responses**:
+
+        - **📘 Automated Readability Index (ARI):** Measures how complex the text is based on word and sentence length.
+        - **📗 Lexical Diversity:** Shows the richness of vocabulary used in the text.
+        - **📙 Flesch Reading Ease:** Indicates how easy or hard the text is to read.
+        - **📕 Average Word Length:** Average length of words in the text.
+        - **📓 Type-Token Ratio (TTR):** Proportion of unique words in the text.
+        - **📒 Token Length:** Total number of tokens in the text (as per OpenAI's tokenizer).
+        """)
         elements = {
         "User Prompt": user_input,
         "AI Output": a1,
