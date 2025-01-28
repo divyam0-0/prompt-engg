@@ -87,7 +87,8 @@ def calculate_metrics(text):
 
 
 with st.sidebar:
-    st.write(sidebar_message)
+    with st.expander("About This Platform", expanded=False):
+        st.write(sidebar_message)
     
 
 expander = st.expander("Tips")
