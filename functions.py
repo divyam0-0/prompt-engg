@@ -10,7 +10,7 @@ from langchain_core.prompts import ChatPromptTemplate
 from langchain_groq import ChatGroq
 
 llm = ChatGroq(temperature=0, 
-                groq_api_key="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", 
+                groq_api_key="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", 
                 model_name="llama-3.3-70b-versatile",
                 streaming=True)
 
