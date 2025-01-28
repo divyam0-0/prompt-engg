@@ -86,12 +86,12 @@ expander.write("Try running any question on your mind. The app will try to answe
 
 if user_input := st.chat_input("Ask anything"):
 
-    tab_1, tab_2, tab_3, tab_4 = st.tabs(tab_1, tab_2, tab_3, tab_4 = st.tabs([
+    tab_1, tab_2, tab_3, tab_4 =  st.tabs([
     '👤 User Vibes', 
     '🚀 Prompt Glow-Up', 
     '🔍 Side-by-Side Showdown', 
     '📊 Metrics Madness'
-]))
+])
 
     with tab_1:
         st.chat_message("user").write(user_input)
