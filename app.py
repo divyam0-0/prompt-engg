@@ -80,18 +80,18 @@ with st.sidebar:
     
 
 expander = st.expander("Tips")
-expander.write("Try running any question on your mind. The app will try to answer it, and then improve the prompt to see if it can answer it better. For example, _help me understand prompt engineering_.")
+expander.write("Try running any question on your mind. The app will try to answer it, and then level up 🚀 the prompt to see if it can answer it even better. For example, _help me understand prompt engineering_ 🤔.")
 
 # tab_1, tab_2, tab_3, tab_4 = st.tabs(['Cost','Model',"📈 Prompt", "🗃 Transaction"])
 
 if user_input := st.chat_input("Ask anything"):
 
-    tab_1, tab_2, tab_3, tab_4 = st.tabs([
-            '👤 User', 
-            '🚀 Improved Prompt', 
-            '🔍 Comparison', 
-            '📊 Graph'
-        ])
+    tab_1, tab_2, tab_3, tab_4 = st.tabs(tab_1, tab_2, tab_3, tab_4 = st.tabs([
+    '👤 User Vibes', 
+    '🚀 Prompt Glow-Up', 
+    '🔍 Side-by-Side Showdown', 
+    '📊 Metrics Madness'
+])
 
     with tab_1:
         st.chat_message("user").write(user_input)
