@@ -13,8 +13,19 @@ from functions import (
 
 #import mlflow
 sidebar_message = """
-ML Ops Capstone Project
+# 🌟 Welcome to the Prompt Engineering Platform! 🎉
 
+## Why This Platform Exists 🚀
+In a world powered by AI, crafting the perfect prompt can unlock the full potential of AI systems. This platform is designed to:
+
+- 🤖 **Help you generate better AI responses** by improving your prompts.
+- ✨ **Compare and evaluate prompts** using cutting-edge metrics.
+- 📊 **Visualize prompt performance** with beautiful, interactive graphs.
+
+## How We Built This 🛠️
+This platform was created with love 💖 and innovation to make AI prompt engineering accessible to everyone. Using powerful tools like Streamlit, NLP libraries, and visualization frameworks, we ensure you get the best experience while working with AI. 
+
+Unleash the power of prompt engineering today! 🌈
 
 By:
 Divyam Bansal
