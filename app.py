@@ -91,7 +91,7 @@ if user_input := st.chat_input("Ask anything"):
     '🚀 Prompt Glow-Up', 
     '🔍 Side-by-Side Showdown', 
     '📊 Metrics Madness'
-])
+]))
 
     with tab_1:
         st.chat_message("user").write(user_input)
