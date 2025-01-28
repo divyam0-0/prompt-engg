@@ -6,7 +6,7 @@ GPT Prompt Help is an application designed to assist you in enhancing your GPT3/
 
 ## How to Use
 
-1. Open the app at [promptengineer.streamlit.app](https://promptengineer.streamlit.app) and locate the input box.
+1. Open the app at TBD and locate the input box.
 2. Enter your prompt into the input box.
 3. The app will initially respond to your prompt using GPT3.5.
 4. Next, the app will suggest an improved version of your prompt and respond accordingly.
