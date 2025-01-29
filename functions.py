@@ -11,7 +11,7 @@ from langchain_groq import ChatGroq
 
 llm = ChatGroq(temperature=0, 
                 groq_api_key="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", 
-                model_name="llama-3.3-70b-versatile",
+                model_name="deepseek-r1-distill-llama-70b",
                 streaming=True)
 
 #import mlflow # type: ignore
