@@ -8,7 +8,7 @@ GPT Prompt Help is an application designed to assist you in enhancing your GPT3/
 
 1. Open the app at TBD and locate the input box.
 2. Enter your prompt into the input box.
-3. The app will initially respond to your prompt using GPT3.5.
+3. The app will initially respond to your prompt using lamma70b
 4. Next, the app will suggest an improved version of your prompt and respond accordingly.
 5. The answers to both the original and improved prompts will be combined into a single answer, displayed at the top of the page.
 
